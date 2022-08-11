@@ -3,9 +3,9 @@ package sqlite
 import (
 	"database/sql"
 	"fmt"
+	sqlite3 "github.com/mutecomm/go-sqlcipher/v4" // 替换为可加密驱动//_ "github.com/mattn/go-sqlite3"
 	"testing"
 
-	"github.com/mattn/go-sqlite3"
 	"gorm.io/gorm"
 )
 
